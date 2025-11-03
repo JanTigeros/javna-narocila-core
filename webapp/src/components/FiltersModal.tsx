@@ -7,72 +7,84 @@ interface FiltersProps {
 
 const FiltersModal: React.FC<FiltersProps> = ({ onClose, onSearch }) => {
   const [filters, setFilters] = useState({
-    keyword: "",
     narocnik: "",
-    vrstaPostopka: "",
-    datumOd: "",
-    datumDo: "",
-    euStatus: "",
+    maticna: "",
+    nazivNarocila: "",
+    stevilkaNarocila: "",
+    vrstaPredmeta: "Storitve",
+    nazivSklopa: "",
+    fazaPostopka: "Naročilo",
+    datumObjave: "V zadnjem mesecu",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setFilters((prev) => ({ ...prev, [name]: value }));
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40">
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40 z-50">
       <div className="bg-white rounded-xl shadow-xl p-6 w-[500px]">
         <h2 className="text-xl font-bold mb-4">Filtri iskanja</h2>
 
         <div className="space-y-3">
-          <input
-            type="text"
-            name="keyword"
-            placeholder="Ključna beseda"
-            className="w-full border p-2 rounded"
-            onChange={handleChange}
-          />
-          <input
-            type="text"
-            name="narocnik"
-            placeholder="Naročnik"
-            className="w-full border p-2 rounded"
-            onChange={handleChange}
-          />
+          {[
+            { name: "narocnik", label: "Naziv naročnika" },
+            { name: "maticna", label: "Matična številka" },
+            { name: "nazivNarocila", label: "Naziv javnega naročila" },
+            { name: "stevilkaNarocila", label: "JN številka" },
+            { name: "nazivSklopa", label: "Naziv sklopa javnega naročila" },
+          ].map((input) => (
+            <input
+              key={input.name}
+              type="text"
+              name={input.name}
+              placeholder={input.label}
+              className="w-full border p-2 rounded"
+              onChange={handleChange}
+              value={(filters as any)[input.name]}
+            />
+          ))}
+
           <select
-            name="vrstaPostopka"
+            name="vrstaPredmeta"
             className="w-full border p-2 rounded"
             onChange={handleChange}
+            value={filters.vrstaPredmeta}
           >
-            <option value="">Vrsta postopka</option>
-            <option value="odprti">Odprti postopek</option>
-            <option value="naročilo male vrednosti">Naročilo male vrednosti</option>
-            <option value="pogajanja">Postopek s pogajanji</option>
+            <option value="Storitve">Storitve</option>
+            <option value="Blago">Blago</option>
+            <option value="Gradnje">Gradnje</option>
           </select>
 
-          <input
-            type="text"
-            name="euStatus"
-            placeholder="EU portal status (npr. Open For Submission)"
+          <select
+            name="fazaPostopka"
             className="w-full border p-2 rounded"
             onChange={handleChange}
-          />
+            value={filters.fazaPostopka}
+          >
+            <option value="- izberi -">- izberi -</option>
+            <option value="Načrtovanje">Načrtovanje</option>
+            <option value="Naročilo">Naročilo</option>
+            <option value="Predhodna transparentnost">
+              Predhodna transparentnost
+            </option>
+            <option value="Rezultat">Rezultat</option>
+            <option value="Sprememba pogodbe">Sprememba pogodbe</option>
+          </select>
 
-          <div className="flex gap-2">
-            <input
-              type="date"
-              name="datumOd"
-              className="w-full border p-2 rounded"
-              onChange={handleChange}
-            />
-            <input
-              type="date"
-              name="datumDo"
-              className="w-full border p-2 rounded"
-              onChange={handleChange}
-            />
-          </div>
+          <select
+            name="datumObjave"
+            className="w-full border p-2 rounded"
+            onChange={handleChange}
+            value={filters.datumObjave}
+          >
+            <option value="V zadnjem mesecu">V zadnjem mesecu</option>
+            <option value="V zadnjem tednu">V zadnjem tednu</option>
+            <option value="Danes">Danes</option>
+          </select>
         </div>
 
         <div className="flex justify-between mt-6">
