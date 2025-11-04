@@ -17,65 +17,86 @@ async function scrapeEJN(page) {
   await sleep(2000);
 
   try {
-    console.log("⚙️  Izvajam avtomatsko izbiro filtrov...");
+    console.log("⚙️ Izvajam avtomatsko izbiro filtrov...");
 
-    // klik na "Napredno iskanje" (če obstaja)
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll("button, a, span"))
-        .find(el => el.textContent && el.textContent.includes("Napredno iskanje"));
-      if (btn && typeof btn.click === "function") btn.click();
-    });
+    // Počakaj, da se Vue aplikacija naloži
+    await page.waitForSelector(".vue-treeselect__input", { timeout: 20000 });
+    await sleep(2500);
 
+    // Funkcija za varno simulacijo klika
+    const safeClick = async (selector, matchText) => {
+      await page.evaluate((sel, txt) => {
+        const el = Array.from(document.querySelectorAll(sel))
+          .find(e => e.textContent && (!txt || e.textContent.includes(txt)));
+        if (el) {
+          el.dispatchEvent(new MouseEvent('mousedown', { bubbles: true }));
+          el.dispatchEvent(new MouseEvent('mouseup', { bubbles: true }));
+          el.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+        }
+      }, selector, matchText);
+    };
+
+    // === 1️⃣ Vrsta predmeta: Storitve ===
+    await safeClick("label.form-label", "Vrsta predmeta");
     await sleep(1000);
+    await safeClick("li, div", "Storitve");
+    await sleep(1500);
+    console.log("✅ Izbrana vrsta predmeta: Storitve");
 
-    // izberi "Vrsta objave" = Naročilo
+    // === 2️⃣ CPV koda: 48000000 ===
+    await safeClick("label.form-label", "Področje naročila");
+    await sleep(1500);
     await page.evaluate(() => {
-      const selects = Array.from(document.querySelectorAll("select"));
-      const vrstaObjave = selects.find(sel =>
-        sel.previousElementSibling && sel.previousElementSibling.textContent.includes("Vrsta objave")
-      );
-      if (vrstaObjave) {
-        vrstaObjave.value = "Naročilo";
-        vrstaObjave.dispatchEvent(new Event("change", { bubbles: true }));
+      const input = document.querySelector(".vue-treeselect__input");
+      if (input) {
+        input.dispatchEvent(new MouseEvent('mousedown', { bubbles: true }));
+        input.dispatchEvent(new Event('focus', { bubbles: true }));
+        input.value = "48000000";
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
       }
     });
+    await sleep(2000);
+    await safeClick(".vue-treeselect__option", "48000000");
+    console.log("✅ Izbrana CPV koda: 48000000");
 
-    // izberi "Vrsta predmeta" = Storitve
-    await page.evaluate(() => {
-      const selects = Array.from(document.querySelectorAll("select"));
-      const vrstaPredmeta = selects.find(sel =>
-        sel.previousElementSibling && sel.previousElementSibling.textContent.includes("Vrsta predmeta")
-      );
-      if (vrstaPredmeta) {
-        vrstaPredmeta.value = "Storitve";
-        vrstaPredmeta.dispatchEvent(new Event("change", { bubbles: true }));
-      }
-    });
-
-    // izberi "Datum objave" zadnji mesec
-    await page.evaluate(() => {
-      const selects = Array.from(document.querySelectorAll("select"));
-      const datumObjave = selects.find(sel =>
-        sel.previousElementSibling && sel.previousElementSibling.textContent.includes("Datum objave")
-      );
-      if (datumObjave) {
-        datumObjave.value = "V zadnjem mesecu";
-        datumObjave.dispatchEvent(new Event("change", { bubbles: true }));
-      }
-    });
-
-    // klikni gumb "Poišči"
+    // === 3️⃣ Faza postopka: Naročilo ===
+    await safeClick("label.form-label", "Faza postopka");
     await sleep(1000);
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll("button, a"))
-        .find(el => el.textContent && el.textContent.includes("Poišči"));
-      if (btn && typeof btn.click === "function") btn.click();
+    await safeClick("li", "Naročilo");
+    await sleep(1000);
+    console.log("✅ Izbrana faza postopka: Naročilo");
+
+    // === 4️⃣ Datum objave: V zadnjih treh mesecih ===
+    await safeClick("label.form-label", "Datum objave");
+    await sleep(1000);
+    await safeClick("li", "V zadnjih treh mesecih");
+    await sleep(1500);
+    console.log("✅ Izbran datum objave: V zadnjih treh mesecih");
+
+    // Hitri screenshot brez zamrznitve
+    await page.screenshot({
+      path: 'filters-debug.png',
+      fullPage: false,
+      clip: { x: 0, y: 0, width: 1280, height: 900 }
     });
 
+    // === 5️⃣ Klikni “Išči” ===
+    await safeClick("button", "Išči");
     console.log("⌛ Čakam, da se rezultati naložijo...");
     await sleep(5000);
+
+    // Hitri screenshot brez zamrznitve
+    await page.screenshot({
+      path: 'filters-debug-2.png',
+      fullPage: false,
+      clip: { x: 0, y: 0, width: 1280, height: 900 }
+    });
+    console.log("⌛ Čakanje končano.");
+
+    console.log("✅ Filtri dejansko uporabljeni!");
   } catch (e) {
-    console.warn("⚠️ Napaka pri avtomatskem kliku filtrov:", e.message);
+    console.warn("⚠️ Napaka pri nastavitvi filtrov:", e.message);
   }
 
   // Pridobi vse rezultate iz tabele
