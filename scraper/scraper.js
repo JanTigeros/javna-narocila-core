@@ -3,123 +3,248 @@ import puppeteer from "puppeteer";
 
 /** 🔹 Uporabna funkcija za čakanje (namesto page.waitForTimeout) */
 async function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 /** 🔹 EJN scraper */
-async function scrapeEJN(page) {
+export async function scrapeEJN(
+  page,
+  { 
+    tip = "Naročilo", 
+    vrstaPredmeta = "Storitve", 
+    cpvCode = ["48000000", "72000000", "79000000"] } = {}
+) {
   console.log("🔍 Zagon EJN scrapa...");
 
-  const url = "https://www.enarocanje.si/#/pregled-objav";
-  await page.goto(url, { waitUntil: "networkidle0", timeout: 0 });
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-  // Počakaj, da se UI naloži
-  await sleep(2000);
+  await page.goto("https://www.enarocanje.si/#/pregled-objav", {
+    waitUntil: "networkidle2",
+    timeout: 0,
+  });
+  await page.waitForSelector("label.form-label", { timeout: 20000 });
+  await sleep(1000);
 
+  console.log("⚙️ Nastavljam filtre...");
+
+  // === 1️⃣ VRSTA PREDMETA ===
   try {
-    console.log("⚙️ Izvajam avtomatsko izbiro filtrov...");
-
-    // Počakaj, da se Vue aplikacija naloži
-    await page.waitForSelector(".vue-treeselect__input", { timeout: 20000 });
-    await sleep(2500);
-
-    // Funkcija za varno simulacijo klika
-    const safeClick = async (selector, matchText) => {
-      await page.evaluate((sel, txt) => {
-        const el = Array.from(document.querySelectorAll(sel))
-          .find(e => e.textContent && (!txt || e.textContent.includes(txt)));
-        if (el) {
-          el.dispatchEvent(new MouseEvent('mousedown', { bubbles: true }));
-          el.dispatchEvent(new MouseEvent('mouseup', { bubbles: true }));
-          el.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-        }
-      }, selector, matchText);
-    };
-
-    // === 1️⃣ Vrsta predmeta: Storitve ===
-    await safeClick("label.form-label", "Vrsta predmeta");
-    await sleep(1000);
-    await safeClick("li, div", "Storitve");
-    await sleep(1500);
-    console.log("✅ Izbrana vrsta predmeta: Storitve");
-
-    // === 2️⃣ CPV koda: 48000000 ===
-    await safeClick("label.form-label", "Področje naročila");
-    await sleep(1500);
     await page.evaluate(() => {
-      const input = document.querySelector(".vue-treeselect__input");
+      const label = [...document.querySelectorAll("label.form-label")]
+      .find((el) => el.textContent.includes("Vrsta predmeta"));
+      console.log("Label:", label ? "✅ najden" : "❌ ni najden");
+      if (label) label.style.outline = "3px solid red";
+      const input = label?.parentElement?.querySelector("input.form-input[type='button']");
+      if (input) input.style.outline = "3px solid red";
+      input?.scrollIntoView({ behavior: "smooth", block: "center" });
+      input?.focus();
+
       if (input) {
-        input.dispatchEvent(new MouseEvent('mousedown', { bubbles: true }));
-        input.dispatchEvent(new Event('focus', { bubbles: true }));
-        input.value = "48000000";
-        input.dispatchEvent(new Event('input', { bubbles: true }));
-        input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+        const eventOptions = { bubbles: true, cancelable: true, view: window };
+        input.dispatchEvent(new MouseEvent("mouseover", eventOptions));
+        input.dispatchEvent(new MouseEvent("mousedown", eventOptions));
+        input.dispatchEvent(new MouseEvent("mouseup", eventOptions));
+        input.dispatchEvent(new MouseEvent("click", eventOptions));
       }
     });
-    await sleep(2000);
-    await safeClick(".vue-treeselect__option", "48000000");
-    console.log("✅ Izbrana CPV koda: 48000000");
 
-    // === 3️⃣ Faza postopka: Naročilo ===
-    await safeClick("label.form-label", "Faza postopka");
-    await sleep(1000);
-    await safeClick("li", "Naročilo");
-    await sleep(1000);
-    console.log("✅ Izbrana faza postopka: Naročilo");
+    // išči v razširjenem listboxu
+    await page.evaluate((value) => {
+      const openList =
+        document.querySelector("div.list[aria-expanded='true']") ||
+        document.querySelector("div.list.show");
+      if (openList) openList.style.outline = "3px solid red";
+      if (!openList) return false;
+      const options = Array.from(openList.querySelectorAll("li, div"));
+      const match = options.find((el) => el.textContent.trim() === value);
+      if (match) match.style.outline = "3px solid red";
+      match?.focus();
+      if (match) {
+        const eventOptions = { bubbles: true, cancelable: true, view: window };
+        match.dispatchEvent(new MouseEvent("mouseover", eventOptions));
+        match.dispatchEvent(new MouseEvent("mousedown", eventOptions));
+        match.dispatchEvent(new MouseEvent("mouseup", eventOptions));
+        match.dispatchEvent(new MouseEvent("click", eventOptions));
+      }
+      return !!match;
+    }, vrstaPredmeta);
 
-    // === 4️⃣ Datum objave: V zadnjih treh mesecih ===
-    await safeClick("label.form-label", "Datum objave");
-    await sleep(1000);
-    await safeClick("li", "V zadnjih treh mesecih");
-    await sleep(1500);
-    console.log("✅ Izbran datum objave: V zadnjih treh mesecih");
-
-    // Hitri screenshot brez zamrznitve
-    await page.screenshot({
-      path: 'filters-debug.png',
-      fullPage: false,
-      clip: { x: 0, y: 0, width: 1280, height: 900 }
-    });
-
-    // === 5️⃣ Klikni “Išči” ===
-    await safeClick("button", "Išči");
-    console.log("⌛ Čakam, da se rezultati naložijo...");
-    await sleep(5000);
-
-    // Hitri screenshot brez zamrznitve
-    await page.screenshot({
-      path: 'filters-debug-2.png',
-      fullPage: false,
-      clip: { x: 0, y: 0, width: 1280, height: 900 }
-    });
-    console.log("⌛ Čakanje končano.");
-
-    console.log("✅ Filtri dejansko uporabljeni!");
+    console.log(`✅ Vrsta predmeta: ${vrstaPredmeta}`);
   } catch (e) {
-    console.warn("⚠️ Napaka pri nastavitvi filtrov:", e.message);
+    console.warn("⚠️ Vrsta predmeta ni uspela:", e.message);
   }
 
-  // Pridobi vse rezultate iz tabele
-  const results = await page.evaluate(() => {
-    const rows = Array.from(document.querySelectorAll("tr"));
-    const data = [];
+  await sleep(500);
 
-    for (const row of rows) {
-      const cells = Array.from(row.querySelectorAll("td"));
-      if (cells.length < 6) continue;
-      data.push({
-        narocnik: cells[0]?.innerText.trim(),
-        naziv: cells[1]?.innerText.trim(),
-        faza: cells[2]?.innerText.trim(),
-        stevilka: cells[3]?.innerText.trim(),
-        datumObjave: cells[4]?.innerText.trim(),
-        povezava: row.querySelector("a")?.href || null,
-      });
+  // === 2️⃣ PODROČJE NAROČILA (CPV KODA) ===
+  try {
+    const cpvCodes = Array.isArray(cpvCode) ? cpvCode : [cpvCode];
+
+    await page.evaluate(() => {
+      const label = [...document.querySelectorAll("label.form-label")]
+        .find((el) => el.textContent.includes("Področje naročila"));
+      if (label) label.style.outline = "3px solid red";
+      const control = label?.parentElement?.querySelector(".vue-treeselect__control");
+      control?.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (control) control.style.outline = "3px solid red";
+      control?.click();
+    });
+
+    await sleep(500);
+
+    for (const code of cpvCodes) {
+      console.log(`🧩 Dodajam CPV kodo: ${code}`);
+
+      await page.evaluate((code) => {
+        const input = document.querySelector(".vue-treeselect__input");
+        if (input) {
+          input.focus();
+          input.value = code;
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+          if (input) input.style.outline = "3px solid red";
+        }
+      }, code);
+
+      // Počakaj, da dropdown prikaže rezultate
+      await page.waitForSelector(".vue-treeselect__option", { timeout: 5000 }).catch(() => {});
+      await sleep(500);
+      // Enter dvakrat – prvi izbere, drugi potrdi
+      await page.keyboard.press("Enter");
+      await sleep(500);
+      await page.keyboard.press("Enter");
+
+      console.log(`✅ Izbrana CPV koda: ${code}`);
+      await sleep(500);
     }
-    return data;
+
+    await sleep(500);
+    console.log(`✅ CPV: ${cpvCode}`);
+  } catch (e) {
+    console.warn("⚠️ CPV ni uspela:", e.message);
+  }
+
+  // === 3️⃣ FAZA POSTOPKA ===
+  try {
+    await page.evaluate(() => {
+      const label = [...document.querySelectorAll("label.form-label")]
+        .find((el) => el.textContent.includes("Faza postopka"));
+      if (label) label.style.outline = "3px solid red";
+      const ul = label?.parentElement?.querySelector("ul.form-input.input");
+      if (ul) ul.style.outline = "3px solid red";
+      ul?.scrollIntoView({ behavior: "smooth", block: "center" });
+      ul?.focus();
+      if (ul) {
+        const eventOptions = { bubbles: true, cancelable: true, view: window };
+        ul.dispatchEvent(new MouseEvent("mouseover", eventOptions));
+        ul.dispatchEvent(new MouseEvent("mousedown", eventOptions));
+        ul.dispatchEvent(new MouseEvent("mouseup", eventOptions));
+        ul.dispatchEvent(new MouseEvent("click", eventOptions));
+      }
+    });
+
+    await page.evaluate((text) => {
+      const openList =
+        document.querySelector("div.list[aria-expanded='true']") ||
+        document.querySelector("div.list.show");
+      if (!openList) return false;
+      const options = Array.from(openList.querySelectorAll("li"));
+      const match = options.find((li) => li.textContent.trim() === text);
+      match?.focus();
+      if (match) {
+        const eventOptions = { bubbles: true, cancelable: true, view: window };
+        match.dispatchEvent(new MouseEvent("mouseover", eventOptions));
+        match.dispatchEvent(new MouseEvent("mousedown", eventOptions));
+        match.dispatchEvent(new MouseEvent("mouseup", eventOptions));
+        match.dispatchEvent(new MouseEvent("click", eventOptions));
+      }
+      return !!match;
+    }, tip);
+    await sleep(500);
+
+    console.log(`✅ Faza postopka: ${tip}`);
+  } catch (e) {
+    console.warn("⚠️ Faza postopka ni uspela:", e.message);
+  }
+
+  // === 4️⃣ DATUM OBJAVE ===
+  try {
+    await page.evaluate(() => {
+      const label = [...document.querySelectorAll("label.form-label")]
+        .find((el) => el.textContent.includes("Datum objave"));
+      if (label) label.style.outline = "3px solid red";
+      const input = label?.parentElement?.querySelector("input.form-input[type='button']");
+      if (input) input.style.outline = "3px solid red";
+      input?.scrollIntoView({ behavior: "smooth", block: "center" });
+      input?.focus();
+      if (input) {
+        const eventOptions = { bubbles: true, cancelable: true, view: window };
+        input.dispatchEvent(new MouseEvent("mouseover", eventOptions));
+        input.dispatchEvent(new MouseEvent("mousedown", eventOptions));
+        input.dispatchEvent(new MouseEvent("mouseup", eventOptions));
+        input.dispatchEvent(new MouseEvent("click", eventOptions));
+      }
+    });
+
+    await page.evaluate(() => {
+      const openList =
+        document.querySelector("div.list[aria-expanded='true']") ||
+        document.querySelector("div.list.show");
+      if (!openList) return false;
+      const options = Array.from(openList.querySelectorAll("li, div"));
+      const match = options.find((el) => el.textContent.includes("V zadnjih treh mesecih"));
+      match?.focus();
+      if (match) {
+        const eventOptions = { bubbles: true, cancelable: true, view: window };
+        match.dispatchEvent(new MouseEvent("mouseover", eventOptions));
+        match.dispatchEvent(new MouseEvent("mousedown", eventOptions));
+        match.dispatchEvent(new MouseEvent("mouseup", eventOptions));
+        match.dispatchEvent(new MouseEvent("click", eventOptions));
+      }
+      return !!match;
+    });
+    await sleep(500);
+
+    console.log("✅ Datum objave: V zadnjih treh mesecih");
+  } catch (e) {
+    console.warn("⚠️ Datum objave ni uspela:", e.message);
+  }
+
+  // === 5️⃣ Klik na gumb "Išči" ===
+  try {
+    await page.evaluate(() => {
+      const btn = [...document.querySelectorAll("button")]
+        .find((b) => b.textContent.trim() === "Išči");
+      if (btn) btn.style.outline = "3px solid red";
+      btn?.scrollIntoView({ behavior: "smooth", block: "center" });
+      btn?.click();
+    });
+    console.log("🔎 Klik na Išči...");
+  } catch (e) {
+    console.warn("⚠️ Gumb 'Išči' ni bil najden:", e.message);
+  }
+
+  // === 6️⃣ Počakaj rezultate ===
+  console.log("⌛ Čakam rezultate...");
+  await page.waitForSelector("tbody tr", { timeout: 30000 }).catch(() => {});
+  await sleep(10000);
+
+  const results = await page.evaluate(() => {
+    const rows = document.querySelectorAll("tbody tr");
+    return Array.from(rows).map((row) => {
+      const tds = Array.from(row.querySelectorAll("td")).map((td) => td.innerText.trim());
+      const link = row.querySelector("a")?.href || "";
+      return {
+        narocnik: tds[0] || "",
+        naziv: tds[1] || "",
+        faza: tds[2] || "",
+        stevilka: tds[3] || "",
+        datumObjave: tds[4] || "",
+        povezava: link,
+      };
+    });
   });
 
-  console.log(`✅ Najdenih ${results.length} zapisov`);
+  console.log(`✅ Najdenih ${results.length} zapisov po filtrih.`);
   return results;
 }
 
@@ -155,7 +280,12 @@ async function scrapeEUPortal(page) {
 /** 🔹 Glavna funkcija */
 export async function scrapeAll() {
   console.log("🚀 Začnem scrapeAll...");
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,     // 👈 prikaže okno brskalnika
+    slowMo: 150,         // 👈 upočasni akcije (npr. 150 ms med kliki)
+    defaultViewport: null, // 👈 omogoči polno okno
+    args: ['--start-maximized'] // 👈 zaženem brskalnik čez cel ekran
+  });
   const pageEJN = await browser.newPage();
   const pageEU = await browser.newPage();
 
@@ -178,7 +308,7 @@ export async function scrapeAll() {
     console.error("❌ scrapeAll napaka:", err);
     throw err;
   } finally {
-    await browser.close();
+    //await browser.close();
   }
 }
 

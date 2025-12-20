@@ -1,12 +1,84 @@
 {
   "ejn": [
     {
-      "narocnik": "OBČINA KRANJSKA GORA",
-      "naziv": "Čiščenje prostorov na območju občine Kranjska Gora 2025-2028",
-      "faza": "Rezultat",
-      "stevilka": "JN006813/2025-SL2/02",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955673"
+      "narocnik": "PLINOVODI, Družba za upravljanje s prenosnim sistemom, d.o.o.",
+      "naziv": "Vzdrževanje in nadgradnje sistema SCADA v obdobju treh let",
+      "faza": "Naročilo",
+      "stevilka": "JN008658/2025-EUe17/01-P01",
+      "datumObjave": "06.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955986"
+    },
+    {
+      "narocnik": "PLINOVODI, Družba za upravljanje s prenosnim sistemom, d.o.o.",
+      "naziv": "Vzdrževanje sistema Telereading za zajem in prenos podatkov za leti 2026 in 2027",
+      "faza": "Naročilo",
+      "stevilka": "JN008694/2025-EUe17/01",
+      "datumObjave": "06.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955767"
+    },
+    {
+      "narocnik": "UNIVERZITETNI KLINIČNI CENTER LJUBLJANA",
+      "naziv": "STORITVE NOTRANJE REVIZIJE (ponovitev)",
+      "faza": "Naročilo",
+      "stevilka": "JN008690/2025-SL1/01",
+      "datumObjave": "05.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/956071"
+    },
+    {
+      "narocnik": "RADIOTELEVIZIJA SLOVENIJA javni zavod, Ljubljana",
+      "naziv": "Vodenje Službe za notranjo revizijo RTV Slovenija, vključno s pripravo vseh potrebnih dokumentov za njeno delovanje",
+      "faza": "Naročilo",
+      "stevilka": "JN008685/2025-SL1/01",
+      "datumObjave": "05.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/956042"
+    },
+    {
+      "narocnik": "MESTNA OBČINA VELENJE",
+      "naziv": "Vzdrževanje, licenčnina in posodobitev obstoječih in novih modulov v temeljnem dokumentnem sistemu ODOS",
+      "faza": "Naročilo",
+      "stevilka": "JN008681/2025-SL1/01",
+      "datumObjave": "05.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955993"
+    },
+    {
+      "narocnik": "Akademska in raziskovalna mreža Slovenije",
+      "naziv": "Vzdrževanje stikal iz SIO-2020 od 1.1.2026 do 31.12.2026",
+      "faza": "Naročilo",
+      "stevilka": "JN008668/2025-EUe16/01",
+      "datumObjave": "05.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955402"
+    },
+    {
+      "narocnik": "VLADA REPUBLIKE SLOVENIJE STATISTIČNI URAD REPUBLIKE SLOVENIJE",
+      "naziv": "Razvoj več modalnega UI asistenta za povezovanje geoprostorskih in statističnih podatkov",
+      "faza": "Naročilo",
+      "stevilka": "JN008664/2025-EUe16/01",
+      "datumObjave": "05.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955657"
+    },
+    {
+      "narocnik": "PLINOVODI, Družba za upravljanje s prenosnim sistemom, d.o.o.",
+      "naziv": "Vzdrževanje in nadgradnje sistema SCADA v obdobju treh let",
+      "faza": "Naročilo",
+      "stevilka": "JN008658/2025-EUe17/01",
+      "datumObjave": "05.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955538"
+    },
+    {
+      "narocnik": "BANKA SLOVENIJE",
+      "naziv": "Obnova Microsoft Enterprise licenc",
+      "faza": "Naročilo",
+      "stevilka": "JN007850/2025-EUe16/01-P02",
+      "datumObjave": "05.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955438"
+    },
+    {
+      "narocnik": "OKROŽNO SODIŠČE V MARIBORU",
+      "naziv": "Fizično in tehnično varovanje Okrožnega sodišča v Mariboru, Okrajnega sodišča v Mariboru, Okrajnega sodišča v Slovenski Bistrici in Okrajnega sodišča v Lenartu",
+      "faza": "Naročilo",
+      "stevilka": "JN007740/2025-EUe16/01-P01",
+      "datumObjave": "05.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955434"
     },
     {
       "narocnik": "ZAVOD ZA ZDRAVSTVENO ZAVAROVANJE SLOVENIJE",
@@ -17,100 +89,12 @@
       "povezava": "https://www.enarocanje.si/#/pregled-objav/955717"
     },
     {
-      "narocnik": "DOM STAREJŠIH OBČANOV GROSUPLJE",
-      "naziv": "Dobava in montaža opreme z upoštevanjem okoljskega vidika ter dobava drobnega inventarja za potrebe nove enote DSO Grosuplje – enota Bloke (ponovitev)",
-      "faza": "Naročilo",
-      "stevilka": "JN008652/2025-SL1/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955718"
-    },
-    {
-      "narocnik": "JAVNO PODJETJE KOMUNALA CERKNICA d.o.o. Cerknica",
-      "naziv": "Dobava soli za posipavanje cest za leto 2025-2026",
-      "faza": "Rezultat",
-      "stevilka": "JN007642/2025-SL2/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955707"
-    },
-    {
       "narocnik": "OBČINA PIRAN",
       "naziv": "Postavitev in vzdrževanje dveh novih LED zaslonov na javnih površinah",
       "faza": "Naročilo",
       "stevilka": "JN008651/2025-SL1/01",
       "datumObjave": "04.11.2025",
       "povezava": "https://www.enarocanje.si/#/pregled-objav/955712"
-    },
-    {
-      "narocnik": "OKP JAVNO PODJETJE ZA KOMUNALNE STORITVE Rogaška Slatina, d.o.o.",
-      "naziv": "Prevzem, prevoz in končna oskrba dehidriranega blata",
-      "faza": "Naročilo",
-      "stevilka": "JN008650/2025-SL3/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955700"
-    },
-    {
-      "narocnik": "OBČINA DOMŽALE",
-      "naziv": "Ureditev ceste ter obnova vodovoda in kanalizacije na odseku Mala Loka – Bišče LC071041",
-      "faza": "Rezultat",
-      "stevilka": "JN006954/2025-SL2/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955618"
-    },
-    {
-      "narocnik": "RADIOTELEVIZIJA SLOVENIJA javni zavod, Ljubljana",
-      "naziv": "Gradnja akustične izolacijske kletke v okviru prenove studia S14",
-      "faza": "Naročilo",
-      "stevilka": "JN007151/2025-SL1/01-P04",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955634"
-    },
-    {
-      "narocnik": "MINISTRSTVO ZA INFRASTRUKTURO, DIREKCIJA REPUBLIKE SLOVENIJE ZA INFRASTRUKTURO",
-      "naziv": "C-4/25; Sprememba projektnih rešitev PZI ureditve glavne ceste G1-11/1062 od km 0,940 do km 1,440",
-      "faza": "Rezultat",
-      "stevilka": "JN007598/2025-EUe29/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/950782"
-    },
-    {
-      "narocnik": "OBČINA MIKLAVŽ NA DRAVSKEM POLJU",
-      "naziv": "Ureditev kolesarske povezave Dobrovce – Dravski Dvor",
-      "faza": "Naročilo",
-      "stevilka": "JN008245/2025-SL1/01-P02",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955694"
-    },
-    {
-      "narocnik": "Znanstveno-raziskovalno središče Koper",
-      "naziv": "Dobava merilnikov vsebnosti vode v tleh",
-      "faza": "Naročilo",
-      "stevilka": "JN008649/2025-SL1/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955677"
-    },
-    {
-      "narocnik": "DRUŽBA ZA AVTOCESTE V REPUBLIKI SLOVENIJI D.D.",
-      "naziv": "Projektiranje in izvedba nadstrešnic v AC bazah Maribor in Slovenske Konjice",
-      "faza": "Rezultat",
-      "stevilka": "JN006577/2025-SL2/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955666"
-    },
-    {
-      "narocnik": "OBČINA ILIRSKA BISTRICA",
-      "naziv": "Športni park Trnovo – 1. faza – ponovitev postopka",
-      "faza": "Naročilo",
-      "stevilka": "JN008356/2025-SL1/01-P03",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955653"
-    },
-    {
-      "narocnik": "OBČINA RAVNE NA KOROŠKEM",
-      "naziv": "Prenova Koroške osrednje knjižnice dr. Franca Sušnika II.faza",
-      "faza": "Rezultat",
-      "stevilka": "JN005443/2025-SL2/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/944421"
     },
     {
       "narocnik": "UNIVERZA NA PRIMORSKEM UNIVERSITA DEL LITORALE",
@@ -121,63 +105,64 @@
       "povezava": "https://www.enarocanje.si/#/pregled-objav/955638"
     },
     {
-      "narocnik": "CERO-DBK, Center za ravnanje z odpadki Dolenjske in Bele krajine, d.o.o., javno podjetje.",
-      "naziv": "ZAVAROVANJE PREMOŽENJA IN PREMOŽENJSKIH INTERESOV ZA CERO-DBK D.O.O.",
+      "narocnik": "UNIVERZA V MARIBORU ŠTUDENTSKI DOMOVI",
+      "naziv": "Računovodsko svetovanje in izvajanje računovodskih storitev",
       "faza": "Naročilo",
-      "stevilka": "JN008648/2025-SL1/01",
+      "stevilka": "JN008642/2025-SL1/01",
       "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955635"
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955577"
+    },
+    {
+      "narocnik": "MINISTRSTVO ZA INFRASTRUKTURO",
+      "naziv": "Sistemi za delovanje ITS in C-ITS rešitev (javno naročilo v treh sklopih)",
+      "faza": "Naročilo",
+      "stevilka": "JN008294/2025-EUe16/01-P01",
+      "datumObjave": "04.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955422"
+    },
+    {
+      "narocnik": "MINISTRSTVO ZA ZDRAVJE",
+      "naziv": "Informacijska rešitev za avtomatizacijo delovnih razporedov v zdravstvu",
+      "faza": "Naročilo",
+      "stevilka": "JN007086/2025-EUe16/01-P09",
+      "datumObjave": "04.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955350"
+    },
+    {
+      "narocnik": "OSNOVNA ŠOLA BEŽIGRAD",
+      "naziv": "Izvajanje računovodskih in knjigovodskih storitev za OŠ Bežigrad",
+      "faza": "Naročilo",
+      "stevilka": "JN008055/2025-SL1/01-P02",
+      "datumObjave": "03.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955253"
+    },
+    {
+      "narocnik": "ELEKTRO GORENJSKA, podjetje za distribucijo električne energije, d.d.",
+      "naziv": "Vzdrževanje integracij merilnega centra",
+      "faza": "Naročilo",
+      "stevilka": "JN008616/2025-SL3/01",
+      "datumObjave": "03.11.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/954797"
+    },
+    {
+      "narocnik": "NACIONALNI INŠTITUT ZA BIOLOGIJO National Institute of Biology",
+      "naziv": "Nakup elektronskega dokumentnega sistema",
+      "faza": "Naročilo",
+      "stevilka": "JN008605/2025-EUe16/01",
+      "datumObjave": "31.10.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/955051"
     },
     {
       "narocnik": "ELES, d. o. o., operater kombiniranega prenosnega in distribucijskega elektroenergetskega omrežja",
-      "naziv": "Dobava kompozitnih izolatorjev in obešalnega materiala za DV 2x110 kV TE TOL – Polje – Beričevo",
-      "faza": "Sprememba pogodbe",
-      "stevilka": "JN006515/2024-EUe39/02",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955421"
-    },
-    {
-      "narocnik": "OBČINA ZREČE",
-      "naziv": "Ureditev odseka LC 485051 Padeški vrh-Gorenje-Zgornje Zreče, 3. faza – 1. podfaza",
-      "faza": "Sprememba pogodbe",
-      "stevilka": "JN003126/2025-EUe38/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955614"
-    },
-    {
-      "narocnik": "GRM NOVO MESTO - center biotehnike in turizma",
-      "naziv": "Sukcesivna dobava živil - neoddani sklopi",
-      "faza": "Rezultat",
-      "stevilka": "JN008279/2025-EUe29/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955174"
-    },
-    {
-      "narocnik": "OBČINA ŽUŽEMBERK",
-      "naziv": "IZGRADNJA VODOVODA BREZOVA REBER, AJDOVEC, HRIBI",
-      "faza": "Sprememba pogodbe",
-      "stevilka": "JN000531/2024-EUe38/01",
-      "datumObjave": "04.11.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/955620"
+      "naziv": "Vzdrževanje in razvoj novih funkcionalnosti na podatkovnem skladišču in platformi za transparentno objavo energetskih podatkov",
+      "faza": "Naročilo",
+      "stevilka": "JN008599/2025-EUe17/01",
+      "datumObjave": "31.10.2025",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/954925"
     }
   ],
   "eu": [
     {
-      "title": "Cross-border renewable energy studies projects",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-E-2026-CBRENEW-STUDIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Cross-border renewable energy studies projects",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-E-2026-CBRENEW-STUDIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Cross-border renewable energy studies projects",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-E-2026-CBRENEW-STUDIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
       "title": "Cross-border renewable energy works projects",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-E-2026-CBRENEW-WORKS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Forthcoming"
@@ -190,6 +175,21 @@
     {
       "title": "Cross-border renewable energy works projects",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-E-2026-CBRENEW-WORKS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Cross-border renewable energy studies projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-E-2026-CBRENEW-STUDIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Cross-border renewable energy studies projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-E-2026-CBRENEW-STUDIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Cross-border renewable energy studies projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-E-2026-CBRENEW-STUDIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Forthcoming"
     },
     {
@@ -238,78 +238,93 @@
       "status": "Forthcoming"
     },
     {
-      "title": "Selection of hosting sites and fellows for EFSA's European Food Risk Assessment Fellowship (EU-FORA) Programme.",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2026-ENREL-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Selection of hosting sites and fellows for EFSA's European Food Risk Assessment Fellowship (EU-FORA) Programme.",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2026-ENREL-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Selection of hosting sites and fellows for EFSA's European Food Risk Assessment Fellowship (EU-FORA) Programme.",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2026-ENREL-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "European Digital Media Observatory Hubs",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-BESTUSE-TECH-EDMO-09-HUBS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Support to implementation of Universal Health Insurance Reform in Armenia",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/prospect-details/185494PROSPECTSEN?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "European Digital Media Observatory Hubs",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-BESTUSE-TECH-EDMO-09-HUBS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Support to implementation of Universal Health Insurance Reform in Armenia",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/prospect-details/185494PROSPECTSEN?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "European Digital Media Observatory Hubs",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-BESTUSE-TECH-EDMO-09-HUBS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Support to implementation of Universal Health Insurance Reform in Armenia",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/prospect-details/185494PROSPECTSEN?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Completion of the initial Network of European Digital Innovation Hubs",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-AC-09-COMPLETION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Building resilience: strategic enhancement of the Palestinian Civil Defence Vehicle, Equipment and Logistics Department",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/prospect-details/185355PROSPECTSEN?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Completion of the initial Network of European Digital Innovation Hubs",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-AC-09-COMPLETION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Building resilience: strategic enhancement of the Palestinian Civil Defence Vehicle, Equipment and Logistics Department",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/prospect-details/185355PROSPECTSEN?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Completion of the initial Network of European Digital Innovation Hubs",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-AC-09-COMPLETION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Building resilience: strategic enhancement of the Palestinian Civil Defence Vehicle, Equipment and Logistics Department",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/prospect-details/185355PROSPECTSEN?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Collaboration platform for the European connected and autonomous vehicle of the future",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-AUTOMOTIVE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Selection of partners to carry out EUROPE DIRECT activities (2026-2030) in Belgium - 2",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ED-2025-BELGIUM-2-FPA?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Collaboration platform for the European connected and autonomous vehicle of the future",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-AUTOMOTIVE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Selection of partners to carry out EUROPE DIRECT activities (2026-2030) in Belgium - 2",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ED-2025-BELGIUM-2-FPA?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Collaboration platform for the European connected and autonomous vehicle of the future",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-AUTOMOTIVE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Selection of partners to carry out EUROPE DIRECT activities (2026-2030) in Belgium - 2",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ED-2025-BELGIUM-2-FPA?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Consolidation of the Network of European Digital Innovation Hubs (EDIHs with reinforced AI focus)",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-EU-EEA-09-CONSOLIDATION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Health: Data ingestion capacities and data services for the European Genomic Data Infrastructure in the European Health Data Space: data storage and processing capacity",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-DS-HEALTH-STORAGE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Consolidation of the Network of European Digital Innovation Hubs (EDIHs with reinforced AI focus)",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-EU-EEA-09-CONSOLIDATION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Health: Data ingestion capacities and data services for the European Genomic Data Infrastructure in the European Health Data Space: data storage and processing capacity",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-DS-HEALTH-STORAGE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Consolidation of the Network of European Digital Innovation Hubs (EDIHs with reinforced AI focus)",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-EU-EEA-09-CONSOLIDATION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Health: Data ingestion capacities and data services for the European Genomic Data Infrastructure in the European Health Data Space: data storage and processing capacity",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-DS-HEALTH-STORAGE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Deployment of cutting-edge multi-modal AI-based solutions in medical imaging",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-SOLUTIONS-CANCER-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Deployment of cutting-edge multi-modal AI-based solutions in medical imaging",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-SOLUTIONS-CANCER-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Deployment of cutting-edge multi-modal AI-based solutions in medical imaging",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-SOLUTIONS-CANCER-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "ELEVATE: European League of Advanced Digital Skills Academies",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-SKILLS-09-LEAGUE-OF-ACADEMIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "ELEVATE: European League of Advanced Digital Skills Academies",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-SKILLS-09-LEAGUE-OF-ACADEMIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "ELEVATE: European League of Advanced Digital Skills Academies",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-SKILLS-09-LEAGUE-OF-ACADEMIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -325,6 +340,21 @@
     {
       "title": "European Advanced Digital Skills Competitions",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-SKILLS-09-COMPETITIONS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Data Space for Manufacturing",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-DSM-AI-09-DS-MANUFACTUR-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Data Space for Manufacturing",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-DSM-AI-09-DS-MANUFACTUR-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Data Space for Manufacturing",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-DSM-AI-09-DS-MANUFACTUR-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -388,66 +418,6 @@
       "status": "Open For Submission"
     },
     {
-      "title": "Health: Data ingestion capacities and data services for the European Genomic Data Infrastructure in the European Health Data Space: data storage and processing capacity",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-DS-HEALTH-STORAGE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Health: Data ingestion capacities and data services for the European Genomic Data Infrastructure in the European Health Data Space: data storage and processing capacity",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-DS-HEALTH-STORAGE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Health: Data ingestion capacities and data services for the European Genomic Data Infrastructure in the European Health Data Space: data storage and processing capacity",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-DS-HEALTH-STORAGE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Deployment of cutting-edge multi-modal AI-based solutions in medical imaging",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-SOLUTIONS-CANCER-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Deployment of cutting-edge multi-modal AI-based solutions in medical imaging",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-SOLUTIONS-CANCER-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Deployment of cutting-edge multi-modal AI-based solutions in medical imaging",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-SOLUTIONS-CANCER-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "ELEVATE: European League of Advanced Digital Skills Academies",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-SKILLS-09-LEAGUE-OF-ACADEMIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "ELEVATE: European League of Advanced Digital Skills Academies",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-SKILLS-09-LEAGUE-OF-ACADEMIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "ELEVATE: European League of Advanced Digital Skills Academies",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-SKILLS-09-LEAGUE-OF-ACADEMIES?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Data Space for Manufacturing",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-DSM-AI-09-DS-MANUFACTUR-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Data Space for Manufacturing",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-DSM-AI-09-DS-MANUFACTUR-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Data Space for Manufacturing",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-DSM-AI-09-DS-MANUFACTUR-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
       "title": "Apply AI: GenAI for the public administrations",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-GENAI-PA?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
@@ -460,6 +430,81 @@
     {
       "title": "Apply AI: GenAI for the public administrations",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-GENAI-PA?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "European Digital Media Observatory Hubs",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-BESTUSE-TECH-EDMO-09-HUBS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "European Digital Media Observatory Hubs",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-BESTUSE-TECH-EDMO-09-HUBS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "European Digital Media Observatory Hubs",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-BESTUSE-TECH-EDMO-09-HUBS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Completion of the initial Network of European Digital Innovation Hubs",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-AC-09-COMPLETION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Completion of the initial Network of European Digital Innovation Hubs",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-AC-09-COMPLETION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Completion of the initial Network of European Digital Innovation Hubs",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-AC-09-COMPLETION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Collaboration platform for the European connected and autonomous vehicle of the future",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-AUTOMOTIVE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Collaboration platform for the European connected and autonomous vehicle of the future",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-AUTOMOTIVE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Collaboration platform for the European connected and autonomous vehicle of the future",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-AI-09-AUTOMOTIVE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Consolidation of the Network of European Digital Innovation Hubs (EDIHs with reinforced AI focus)",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-EU-EEA-09-CONSOLIDATION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Consolidation of the Network of European Digital Innovation Hubs (EDIHs with reinforced AI focus)",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-EU-EEA-09-CONSOLIDATION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Consolidation of the Network of European Digital Innovation Hubs (EDIHs with reinforced AI focus)",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-EDIH-EU-EEA-09-CONSOLIDATION-STEP?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Selection of hosting sites and fellows for EFSA's European Food Risk Assessment Fellowship (EU-FORA) Programme.",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2026-ENREL-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Selection of hosting sites and fellows for EFSA's European Food Risk Assessment Fellowship (EU-FORA) Programme.",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2026-ENREL-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Selection of hosting sites and fellows for EFSA's European Food Risk Assessment Fellowship (EU-FORA) Programme.",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2026-ENREL-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -523,21 +568,6 @@
       "status": "Forthcoming"
     },
     {
-      "title": "InnoMatch project - Open call 1 EIC Awardee + Buyer (wave 2)",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12246?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "InnoMatch project - Open call 1 EIC Awardee + Buyer (wave 2)",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12246?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "InnoMatch project - Open call 1 EIC Awardee + Buyer (wave 2)",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12246?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
       "title": "Open Call for Women-Led Deep-Tech Startups",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12222?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
@@ -550,6 +580,21 @@
     {
       "title": "Open Call for Women-Led Deep-Tech Startups",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12222?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "InnoMatch project - Open call 1 EIC Awardee + Buyer (wave 2)",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12246?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "InnoMatch project - Open call 1 EIC Awardee + Buyer (wave 2)",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12246?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "InnoMatch project - Open call 1 EIC Awardee + Buyer (wave 2)",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12246?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -610,36 +655,6 @@
     {
       "title": "REGIONAL RAIL SERVICES / INNOVATIVE RAIL SERVICES TO REVITALISE CAPILLARY LINES",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA6-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "NETWORK MANAGEMENT PLANNING AND CONTROL & MOBILITY MANAGEMENT IN A MULTIMODAL ENVIRONMENT AND DIGITAL ENABLERS",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA1-TT-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "NETWORK MANAGEMENT PLANNING AND CONTROL & MOBILITY MANAGEMENT IN A MULTIMODAL ENVIRONMENT AND DIGITAL ENABLERS",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA1-TT-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "NETWORK MANAGEMENT PLANNING AND CONTROL & MOBILITY MANAGEMENT IN A MULTIMODAL ENVIRONMENT AND DIGITAL ENABLERS",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA1-TT-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "DIGITAL & AUTOMATIC UP TO AUTOMATED TRAIN OPERATIONS",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA2-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "DIGITAL & AUTOMATIC UP TO AUTOMATED TRAIN OPERATIONS",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA2-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "DIGITAL & AUTOMATIC UP TO AUTOMATED TRAIN OPERATIONS",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA2-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -748,6 +763,36 @@
       "status": "Open For Submission"
     },
     {
+      "title": "DIGITAL & AUTOMATIC UP TO AUTOMATED TRAIN OPERATIONS",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA2-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "DIGITAL & AUTOMATIC UP TO AUTOMATED TRAIN OPERATIONS",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA2-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "DIGITAL & AUTOMATIC UP TO AUTOMATED TRAIN OPERATIONS",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA2-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "NETWORK MANAGEMENT PLANNING AND CONTROL & MOBILITY MANAGEMENT IN A MULTIMODAL ENVIRONMENT AND DIGITAL ENABLERS",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA1-TT-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "NETWORK MANAGEMENT PLANNING AND CONTROL & MOBILITY MANAGEMENT IN A MULTIMODAL ENVIRONMENT AND DIGITAL ENABLERS",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA1-TT-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "NETWORK MANAGEMENT PLANNING AND CONTROL & MOBILITY MANAGEMENT IN A MULTIMODAL ENVIRONMENT AND DIGITAL ENABLERS",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-ER-2025-FA1-TT-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
       "title": "Funding for Coding Projects within the Framework of EU Code Week",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12141?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Forthcoming"
@@ -778,21 +823,6 @@
       "status": "Open For Submission"
     },
     {
-      "title": "Cybersecure tools, technologies and services relying on AI",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2025-DEPLOY-CYBER-09-CYBERAI?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Cybersecure tools, technologies and services relying on AI",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2025-DEPLOY-CYBER-09-CYBERAI?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Cybersecure tools, technologies and services relying on AI",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2025-DEPLOY-CYBER-09-CYBERAI?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
       "title": "Regional Cable Hubs",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2025-DEPLOY-CYBER-09-CABLEHUBS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
@@ -805,6 +835,21 @@
     {
       "title": "Regional Cable Hubs",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2025-DEPLOY-CYBER-09-CABLEHUBS?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Cybersecure tools, technologies and services relying on AI",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2025-DEPLOY-CYBER-09-CYBERAI?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Cybersecure tools, technologies and services relying on AI",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2025-DEPLOY-CYBER-09-CYBERAI?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Cybersecure tools, technologies and services relying on AI",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2025-DEPLOY-CYBER-09-CYBERAI?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -1123,21 +1168,6 @@
       "status": "Open For Submission"
     },
     {
-      "title": "UNITE Open Call 1 for Joint Interregional Projects",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12003?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "UNITE Open Call 1 for Joint Interregional Projects",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12003?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "UNITE Open Call 1 for Joint Interregional Projects",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12003?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
       "title": "Information measures for the EU Cohesion policy for 2025",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/IMREG-2025-INFOME?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
@@ -1165,6 +1195,21 @@
     {
       "title": "Circulation of European literary works",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CULT-2026-LIT?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "UNITE Open Call 1 for Joint Interregional Projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12003?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "UNITE Open Call 1 for Joint Interregional Projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12003?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "UNITE Open Call 1 for Joint Interregional Projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12003?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -1423,8 +1468,18 @@
       "status": "Open For Submission"
     },
     {
-      "title": "Risk Assessment in Eastern Eu",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-04-Lot4?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "MSCA Choose Europe for Science 2025",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2025-COFUND-02-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "MSCA Choose Europe for Science 2025",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2025-COFUND-02-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "MSCA Choose Europe for Science 2025",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2025-COFUND-02-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -1438,18 +1493,8 @@
       "status": "Open For Submission"
     },
     {
-      "title": "Risk Assessments in Southern Eu",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-02-Lot2?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Risk Assessments in Southern Eu",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-02-Lot2?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "Risk Assessments in Southern Eu",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-02-Lot2?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Risk Assessment in Eastern Eu",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-04-Lot4?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -1468,8 +1513,18 @@
       "status": "Open For Submission"
     },
     {
-      "title": "Risk Assessments in Northern Eu",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-01-Lot1?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Risk Assessments in Southern Eu",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-02-Lot2?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Risk Assessments in Southern Eu",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-02-Lot2?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Open For Submission"
+    },
+    {
+      "title": "Risk Assessments in Southern Eu",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-02-Lot2?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -1483,18 +1538,8 @@
       "status": "Open For Submission"
     },
     {
-      "title": "MSCA Choose Europe for Science 2025",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2025-COFUND-02-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "MSCA Choose Europe for Science 2025",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2025-COFUND-02-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "MSCA Choose Europe for Science 2025",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2025-COFUND-02-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "Risk Assessments in Northern Eu",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-BIOHAW-04-01-Lot1?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
@@ -1558,51 +1603,6 @@
       "status": "Open For Submission"
     },
     {
-      "title": "European slate development",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-DEVSLATE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "European slate development",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-DEVSLATE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "European slate development",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-DEVSLATE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "European co-development",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-CODEV?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "European co-development",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-CODEV?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "European co-development",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-CODEV?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "TV and online content Animation projects",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-1?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "TV and online content Animation projects",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-1?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
-      "title": "TV and online content Animation projects",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-1?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Open For Submission"
-    },
-    {
       "title": "Video games and immersive content development",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-DEVVGIM?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
@@ -1618,50 +1618,50 @@
       "status": "Open For Submission"
     },
     {
-      "title": "European VOD networks and operators",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-VODNET?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "TV and online content Documentary projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-2?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "European VOD networks and operators",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-VODNET?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "TV and online content Documentary projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-2?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "European VOD networks and operators",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-VODNET?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "TV and online content Documentary projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-2?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Innovative tools and business models",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-INNOVBUSMOD?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "TV and online content Fiction projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-3?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Innovative tools and business models",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-INNOVBUSMOD?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "TV and online content Fiction projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-3?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Innovative tools and business models",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-INNOVBUSMOD?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "TV and online content Fiction projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-3?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Films on the Move",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-FILMOVE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "TV and online content Animation projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-1?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Films on the Move",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-FILMOVE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "TV and online content Animation projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-1?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     },
     {
-      "title": "Films on the Move",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-FILMOVE?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "title": "TV and online content Animation projects",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TVONLINE-1?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Open For Submission"
     }
   ],
-  "scrapedAt": "2025-11-04T13:28:24.767Z"
+  "scrapedAt": "2025-11-06T09:02:35.777Z"
 }

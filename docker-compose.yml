@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  scraper:
+    build:
+      context: ./scraper
+      dockerfile: Dockerfile
+    container_name: javna-scraper
+    # Mount local data.json so scraped results persist on host
+    volumes:
+      - ./scraper/data.json:/app/data.json
+      - ./scraper:/app:ro
+    restart: "no"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - javna-net
+
+  web:
+    build:
+      context: ./webapp
+      dockerfile: Dockerfile
+    container_name: javna-web
+    ports:
+      - "8080:80"
+    depends_on:
+      - scraper
+    # Expose built public data.json to the served site (read-only)
+    volumes:
+      - ./webapp/public/data.json:/usr/share/nginx/html/data.json:ro
+    networks:
+      - javna-net
+
+networks:
+  javna-net:
+    driver: bridge
