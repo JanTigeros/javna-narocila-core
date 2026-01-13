@@ -12,7 +12,7 @@ export async function scrapeEJN(
   { 
     tip = "Naročilo", 
     vrstaPredmeta = "Storitve", 
-    cpvCode = ["48000000", "72000000", "79000000"] } = {}
+    cpvCode = ["30200000", "48000000", "72000000", "79000000"] } = {}
 ) {
   console.log("🔍 Zagon EJN scrapa...");
 
