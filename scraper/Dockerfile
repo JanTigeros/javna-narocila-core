@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   ca-certificates \
   wget \
   fonts-liberation \
+  libfontconfig1 \
+  libgconf-2-4 \
   libasound2 \
   libatk1.0-0 \
   libcups2 \
@@ -21,6 +23,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   libgdk-pixbuf2.0-0 \
   libglib2.0-0 \
   libgtk-3-0 \
+  libgbm1 \
   libnspr4 \
   libnss3 \
   libpango-1.0-0 \
@@ -54,4 +57,4 @@ COPY . .
 VOLUME ["/app/data"]
 
 # Default command: run the scraper
-CMD ["node", "scraper.js"]
+CMD ["node", "server.js"]

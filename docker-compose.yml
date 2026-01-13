@@ -8,13 +8,16 @@ services:
     container_name: javna-scraper
     # Mount local data.json so scraped results persist on host
     volumes:
-      - ./scraper/data.json:/app/data.json
-      - ./scraper:/app:ro
+      - ./scraper/data.json:/app/data.json:rw
     restart: "no"
     environment:
       - NODE_ENV=production
+    # expose API port so web frontend (browser) can call it on localhost
+    ports:
+      - "4000:4000"
     networks:
       - javna-net
+    shm_size: "1gb"
 
   web:
     build:

@@ -1,6 +1,38 @@
 {
   "ejn": [
     {
+      "narocnik": "ZAVOD REPUBLIKE SLOVENIJE ZA PRESADITVE ORGANOV IN TKIV SLOVENIJA TRANSPLANT",
+      "naziv": "Razvoj nacionalnega informacijskega sistema Zavoda Slovenija - transplant",
+      "faza": "Naročilo",
+      "stevilka": "JN000142/2026-EUe16/01",
+      "datumObjave": "13.01.2026",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/971661"
+    },
+    {
+      "narocnik": "UNIVERZITETNI KLINIČNI CENTER LJUBLJANA",
+      "naziv": "Najem multifunkcijskih naprav",
+      "faza": "Naročilo",
+      "stevilka": "JN010052/2025-EUe16/01-P01",
+      "datumObjave": "13.01.2026",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/971623"
+    },
+    {
+      "narocnik": "ONKOLOŠKI INŠTITUT LJUBLJANA",
+      "naziv": "Vzpostavitev, uvedba in vzdrževanje obsevalnega informacijskega sistema (ObIS)",
+      "faza": "Naročilo",
+      "stevilka": "JN009840/2025-EUe16/01-P02",
+      "datumObjave": "13.01.2026",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/971559"
+    },
+    {
+      "narocnik": "HOLDING SLOVENSKE ELEKTRARNE d.o.o.",
+      "naziv": "Izvedba zunanje presoje sistema vodenja",
+      "faza": "Naročilo",
+      "stevilka": "JN009939/2025-SL3/01-P01",
+      "datumObjave": "12.01.2026",
+      "povezava": "https://www.enarocanje.si/#/pregled-objav/971411"
+    },
+    {
       "narocnik": "ZAVOD REPUBLIKE SLOVENIJE ZA BLAGOVNE REZERVE",
       "naziv": "Izdelava analize trga oskrbe in rabe naftnih derivatov ter študija ukrepov za odzivanje na motnje pri preskrbi z naftnimi derivati",
       "faza": "Naročilo",
@@ -127,38 +159,6 @@
       "stevilka": "JN009988/2025-SL1/01-P01",
       "datumObjave": "24.12.2025",
       "povezava": "https://www.enarocanje.si/#/pregled-objav/968982"
-    },
-    {
-      "narocnik": "ONKOLOŠKI INŠTITUT LJUBLJANA",
-      "naziv": "Vzpostavitev, uvedba in vzdrževanje obsevalnega informacijskega sistema (ObIS)",
-      "faza": "Naročilo",
-      "stevilka": "JN009840/2025-EUe16/01-P01",
-      "datumObjave": "24.12.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/968897"
-    },
-    {
-      "narocnik": "JAVNI HOLDING LJUBLJANA, d.o.o., družba za izvajanje strokovnih in razvojnih nalog na področju gospodarskih javnih služb",
-      "naziv": "Razširitev požarnih pregrad PaloAlto",
-      "faza": "Naročilo",
-      "stevilka": "JN010015/2025-EUe16/01",
-      "datumObjave": "24.12.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/968907"
-    },
-    {
-      "narocnik": "Javni holding Maribor, družba za izvajanje strokovnih in razvojnih nalog na področju gospodarskih javnih služb d.o.o.",
-      "naziv": "Posredovanje delovne sile",
-      "faza": "Naročilo",
-      "stevilka": "JN005146/2023-K01-P02",
-      "datumObjave": "24.12.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/968685"
-    },
-    {
-      "narocnik": "ONKOLOŠKI INŠTITUT LJUBLJANA",
-      "naziv": "Razvoj, implementacija in vzdrževanje Onkološkega kirurškega modula (OKM)",
-      "faza": "Naročilo",
-      "stevilka": "JN010009/2025-EUe16/01",
-      "datumObjave": "24.12.2025",
-      "povezava": "https://www.enarocanje.si/#/pregled-objav/968676"
     }
   ],
   "eu": [
@@ -1468,6 +1468,171 @@
       "status": "Forthcoming"
     },
     {
+      "title": "Towards a Europe of Bioeconomy Places",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Towards a Europe of Bioeconomy Places",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Towards a Europe of Bioeconomy Places",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Enhancing ecodesign and circularity of consumer electronics",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Enhancing ecodesign and circularity of consumer electronics",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Enhancing ecodesign and circularity of consumer electronics",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Developing novel recycling technologies for complex plastic materials applying biotech solutions",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Developing novel recycling technologies for complex plastic materials applying biotech solutions",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Developing novel recycling technologies for complex plastic materials applying biotech solutions",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Biotechnology application for CCU",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Biotechnology application for CCU",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Biotechnology application for CCU",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Enhancing ecodesign and circularity of construction products",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Enhancing ecodesign and circularity of construction products",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Enhancing ecodesign and circularity of construction products",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Technical innovation to protect ecosystems and to scale up their restoration",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Technical innovation to protect ecosystems and to scale up their restoration",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Technical innovation to protect ecosystems and to scale up their restoration",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Europe-wide environmental benchmarking system of the industrial bioeconomy sectors",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Europe-wide environmental benchmarking system of the industrial bioeconomy sectors",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Europe-wide environmental benchmarking system of the industrial bioeconomy sectors",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Improving biomass flows for a sustainable and circular bioeconomy",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Improving biomass flows for a sustainable and circular bioeconomy",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Improving biomass flows for a sustainable and circular bioeconomy",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Health of ecosystems and wild species, predictions and impacts on human health, in the face of existing and emerging stressors, from a One Health approach",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Health of ecosystems and wild species, predictions and impacts on human health, in the face of existing and emerging stressors, from a One Health approach",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Health of ecosystems and wild species, predictions and impacts on human health, in the face of existing and emerging stressors, from a One Health approach",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Integrating Remote Sensing and in-situ observations of Biodiversity, towards a fully interoperable observation and data framework",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Integrating Remote Sensing and in-situ observations of Biodiversity, towards a fully interoperable observation and data framework",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Integrating Remote Sensing and in-situ observations of Biodiversity, towards a fully interoperable observation and data framework",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Capacity building for extending product lifecycles through repair and refurbishment",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Capacity building for extending product lifecycles through repair and refurbishment",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
+      "title": "Capacity building for extending product lifecycles through repair and refurbishment",
+      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
+      "status": "Forthcoming"
+    },
+    {
       "title": "Increasing the circularity of bio-based sector: upcycling and recycling for higher value and environmental benefits",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-09?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Forthcoming"
@@ -1495,173 +1660,8 @@
     {
       "title": "Accelerating the transition to a nature positive economy: Integrating biodiversity into the private sector",
       "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Living Labs for the eradication and/or management of invasive alien species",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Living Labs for the eradication and/or management of invasive alien species",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Living Labs for the eradication and/or management of invasive alien species",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Replacing hazardous substances in biocidal products",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Replacing hazardous substances in biocidal products",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Replacing hazardous substances in biocidal products",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Science-policy support to the implementation of EU and global biodiversity policies and strategies",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Science-policy support to the implementation of EU and global biodiversity policies and strategies",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Science-policy support to the implementation of EU and global biodiversity policies and strategies",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Strengthening forest research for the support of Ukraine",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-10?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Strengthening forest research for the support of Ukraine",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-10?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Strengthening forest research for the support of Ukraine",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-10?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Improve the capacity to monitor and reduce air pollution from agriculture",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Improve the capacity to monitor and reduce air pollution from agriculture",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Improve the capacity to monitor and reduce air pollution from agriculture",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Developing effective air quality planning strategies through innovative multi-scale modelling",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Developing effective air quality planning strategies through innovative multi-scale modelling",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Developing effective air quality planning strategies through innovative multi-scale modelling",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Living labs driving transformative change via knowledge integration and inclusive governance",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Living labs driving transformative change via knowledge integration and inclusive governance",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Living labs driving transformative change via knowledge integration and inclusive governance",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Fostering common farmland birds and mammals for resilient food production systems",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Fostering common farmland birds and mammals for resilient food production systems",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Fostering common farmland birds and mammals for resilient food production systems",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Enhancing the competitiveness of organic crop breeding: focus on intercropping adapted varieties",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-09?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Enhancing the competitiveness of organic crop breeding: focus on intercropping adapted varieties",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-09?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Enhancing the competitiveness of organic crop breeding: focus on intercropping adapted varieties",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-09?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Innovative circular solutions for end-of-life footwear through collection, sorting and recycling",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Innovative circular solutions for end-of-life footwear through collection, sorting and recycling",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Innovative circular solutions for end-of-life footwear through collection, sorting and recycling",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Towards a Europe of Bioeconomy Places",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Towards a Europe of Bioeconomy Places",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
-      "status": "Forthcoming"
-    },
-    {
-      "title": "Towards a Europe of Bioeconomy Places",
-      "href": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=100&sortBy=startDate",
       "status": "Forthcoming"
     }
   ],
-  "scrapedAt": "2026-01-12T06:34:11.052Z"
+  "scrapedAt": "2026-01-13T07:04:27.223Z"
 }

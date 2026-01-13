@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import type { FC } from "react";
 
 interface FiltersProps {
   onClose: () => void;
   onSearch: (filters: any) => void;
 }
 
-const FiltersModal: React.FC<FiltersProps> = ({ onClose, onSearch }) => {
+const FiltersModal: FC<FiltersProps> = ({ onClose, onSearch }) => {
   const [filters, setFilters] = useState({
     narocnik: "",
     maticna: "",

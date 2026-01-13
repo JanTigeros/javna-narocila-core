@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import EUView from "./components/EUView";
 import EJNView from "./components/EJNVIew";
 
@@ -82,13 +82,13 @@ export default function App() {
       </div>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-2">🇪🇺 EU Portal</h2>
-        <EUView data={euData} />
+        <h2 className="text-2xl font-semibold mt-8 mb-2">🇸🇮 EJN Portal</h2>
+        <EJNView data={ejnData} />
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mt-8 mb-2">🇸🇮 EJN Portal</h2>
-        <EJNView data={ejnData} />
+        <h2 className="text-2xl font-semibold mb-2">🇪🇺 EU Portal</h2>
+        <EUView data={euData} />
       </section>
     </div>
   );

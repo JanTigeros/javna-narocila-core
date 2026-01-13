@@ -9,10 +9,11 @@ async function sleep(ms) {
 /** 🔹 EJN scraper */
 export async function scrapeEJN(
   page,
-  { 
-    tip = "Naročilo", 
-    vrstaPredmeta = "Storitve", 
-    cpvCode = ["30200000", "48000000", "72000000", "79000000"] } = {}
+  {
+    tip = "Naročilo",
+    vrstaPredmeta = "Storitve",
+    cpvCode = ["30200000", "48000000", "72000000", "79000000"],
+  } = {}
 ) {
   console.log("🔍 Zagon EJN scrapa...");
 
@@ -30,11 +31,14 @@ export async function scrapeEJN(
   // === 1️⃣ VRSTA PREDMETA ===
   try {
     await page.evaluate(() => {
-      const label = [...document.querySelectorAll("label.form-label")]
-      .find((el) => el.textContent.includes("Vrsta predmeta"));
+      const label = [...document.querySelectorAll("label.form-label")].find(
+        (el) => el.textContent.includes("Vrsta predmeta")
+      );
       console.log("Label:", label ? "✅ najden" : "❌ ni najden");
       if (label) label.style.outline = "3px solid red";
-      const input = label?.parentElement?.querySelector("input.form-input[type='button']");
+      const input = label?.parentElement?.querySelector(
+        "input.form-input[type='button']"
+      );
       if (input) input.style.outline = "3px solid red";
       input?.scrollIntoView({ behavior: "smooth", block: "center" });
       input?.focus();
@@ -81,10 +85,13 @@ export async function scrapeEJN(
     const cpvCodes = Array.isArray(cpvCode) ? cpvCode : [cpvCode];
 
     await page.evaluate(() => {
-      const label = [...document.querySelectorAll("label.form-label")]
-        .find((el) => el.textContent.includes("Področje naročila"));
+      const label = [...document.querySelectorAll("label.form-label")].find(
+        (el) => el.textContent.includes("Področje naročila")
+      );
       if (label) label.style.outline = "3px solid red";
-      const control = label?.parentElement?.querySelector(".vue-treeselect__control");
+      const control = label?.parentElement?.querySelector(
+        ".vue-treeselect__control"
+      );
       control?.scrollIntoView({ behavior: "smooth", block: "center" });
       if (control) control.style.outline = "3px solid red";
       control?.click();
@@ -106,7 +113,9 @@ export async function scrapeEJN(
       }, code);
 
       // Počakaj, da dropdown prikaže rezultate
-      await page.waitForSelector(".vue-treeselect__option", { timeout: 5000 }).catch(() => {});
+      await page
+        .waitForSelector(".vue-treeselect__option", { timeout: 5000 })
+        .catch(() => { });
       await sleep(500);
       // Enter dvakrat – prvi izbere, drugi potrdi
       await page.keyboard.press("Enter");
@@ -126,8 +135,9 @@ export async function scrapeEJN(
   // === 3️⃣ FAZA POSTOPKA ===
   try {
     await page.evaluate(() => {
-      const label = [...document.querySelectorAll("label.form-label")]
-        .find((el) => el.textContent.includes("Faza postopka"));
+      const label = [...document.querySelectorAll("label.form-label")].find(
+        (el) => el.textContent.includes("Faza postopka")
+      );
       if (label) label.style.outline = "3px solid red";
       const ul = label?.parentElement?.querySelector("ul.form-input.input");
       if (ul) ul.style.outline = "3px solid red";
@@ -169,10 +179,13 @@ export async function scrapeEJN(
   // === 4️⃣ DATUM OBJAVE ===
   try {
     await page.evaluate(() => {
-      const label = [...document.querySelectorAll("label.form-label")]
-        .find((el) => el.textContent.includes("Datum objave"));
+      const label = [...document.querySelectorAll("label.form-label")].find(
+        (el) => el.textContent.includes("Datum objave")
+      );
       if (label) label.style.outline = "3px solid red";
-      const input = label?.parentElement?.querySelector("input.form-input[type='button']");
+      const input = label?.parentElement?.querySelector(
+        "input.form-input[type='button']"
+      );
       if (input) input.style.outline = "3px solid red";
       input?.scrollIntoView({ behavior: "smooth", block: "center" });
       input?.focus();
@@ -191,7 +204,9 @@ export async function scrapeEJN(
         document.querySelector("div.list.show");
       if (!openList) return false;
       const options = Array.from(openList.querySelectorAll("li, div"));
-      const match = options.find((el) => el.textContent.includes("V zadnjih treh mesecih"));
+      const match = options.find((el) =>
+        el.textContent.includes("V zadnjih treh mesecih")
+      );
       match?.focus();
       if (match) {
         const eventOptions = { bubbles: true, cancelable: true, view: window };
@@ -212,8 +227,9 @@ export async function scrapeEJN(
   // === 5️⃣ Klik na gumb "Išči" ===
   try {
     await page.evaluate(() => {
-      const btn = [...document.querySelectorAll("button")]
-        .find((b) => b.textContent.trim() === "Išči");
+      const btn = [...document.querySelectorAll("button")].find(
+        (b) => b.textContent.trim() === "Išči"
+      );
       if (btn) btn.style.outline = "3px solid red";
       btn?.scrollIntoView({ behavior: "smooth", block: "center" });
       btn?.click();
@@ -225,13 +241,15 @@ export async function scrapeEJN(
 
   // === 6️⃣ Počakaj rezultate ===
   console.log("⌛ Čakam rezultate...");
-  await page.waitForSelector("tbody tr", { timeout: 30000 }).catch(() => {});
+  await page.waitForSelector("tbody tr", { timeout: 30000 }).catch(() => { });
   await sleep(10000);
 
   const results = await page.evaluate(() => {
     const rows = document.querySelectorAll("tbody tr");
     return Array.from(rows).map((row) => {
-      const tds = Array.from(row.querySelectorAll("td")).map((td) => td.innerText.trim());
+      const tds = Array.from(row.querySelectorAll("td")).map((td) =>
+        td.innerText.trim()
+      );
       const link = row.querySelector("a")?.href || "";
       return {
         narocnik: tds[0] || "",
@@ -281,10 +299,16 @@ async function scrapeEUPortal(page) {
 export async function scrapeAll() {
   console.log("🚀 Začnem scrapeAll...");
   const browser = await puppeteer.launch({
-    headless: true,     // 👈 prikaže okno brskalnika
-    slowMo: 150,         // 👈 upočasni akcije (npr. 150 ms med kliki)
-    defaultViewport: null, // 👈 omogoči polno okno
-    args: ['--start-maximized'] // 👈 zaženem brskalnik čez cel ekran
+    headless: true,
+    slowMo: 150,
+    defaultViewport: null,
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-gpu",
+      "--start-maximized",
+    ],
   });
   const pageEJN = await browser.newPage();
   const pageEU = await browser.newPage();
